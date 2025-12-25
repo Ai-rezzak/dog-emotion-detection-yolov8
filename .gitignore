@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model files (büyükse)
+*.pt
+*.pth
+*.weights
+models/*.pt
+!models/README.md
+
+# Large datasets
+data/raw/*
+data/train/*
+data/valid/*
+data/test/*
+!data/sample_images/
+!data/README.md
+
+# Test outputs
+test_data/test_foto_output/
+test_video/test_video_output/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
