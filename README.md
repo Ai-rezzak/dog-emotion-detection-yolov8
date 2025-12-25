@@ -110,19 +110,45 @@ Understanding dogs' emotional states is crucial for:
 | **Overall** | **92.3%** | **4,806 images** |
 
 ---
-
 ## 🎥 Demo
 
 ### Detection Examples
 
-| Relax | Happy |
-|---|---|
-| <img src="results/test_outputs/images/0d2c55db-3f52-425d-ab9e-94ea7d682709.jpeg" width="250"/> | <img src="results/test_outputs/images/a6859a3c08fba95fe32568b5cf1abdb04d3f1aac.jpg" width="250"/> |
+<div align="center">
 
-| Angry | Sleeping |
-|---|---|
-| <img src="results/test_outputs/images/0d02e8edf180e49f7366d451a4f5b5b5b29f6907.jpg" width="250"/> | <img src="results/test_outputs/images/sleeping11.jpg" width="250"/> |
+| Happy 😊 | Angry 😠 |
+|:---:|:---:|
+| <img src="results/test_outputs/images/a6859a3c08fba95fe32568b5cf1abdb04d3f1aac.jpg" width="350" height="280"/> | <img src="results/test_outputs/images/0d02e8edf180e49f7366d451a4f5b5b5b29f6907.jpg" width="350" height="280"/> |
 
+| Sad 😢 | Sleeping 😴 |
+|:---:|:---:|
+| <img src="results/test_outputs/images/a96cb966eaf0794bf724b4994e2a522bddfd1ce0.jpg" width="350" height="280"/> | <img src="results/test_outputs/images/sleeping11.jpg" width="350" height="280"/> |
+
+</div>
+
+<p align="center"><i>Real-time emotion detection across all four emotional states</i></p>
+
+---
+
+### 🎬 Video Detection Demonstrations
+
+<div align="center">
+
+**Landscape Video Detection (16:9)**
+
+<img src="results/test_outputs/gifs/demo_video1.gif" width="600" height="338"/>
+
+<br/><br/>
+
+**Portrait Video Detection (9:16)**
+
+<img src="results/test_outputs/gifs/2.gif" width="300" height="533"/>
+
+</div>
+
+<p align="center"><i>Live emotion detection in both landscape and portrait orientations</i></p>
+
+---
 
 ### System Architecture
 
@@ -140,16 +166,23 @@ Output: Emotion Label + Confidence
 
 ### Performance Metrics
 
-<div align="center">
-  <img src="results/metrics/emotion_detect/f1_curve.png" width="45%" alt="F1 Curve"/>
-  <img src="results/metrics/emotion_detect/pr_curve.png" width="45%" alt="PR Curve"/>
-</div>
+<div align="center"> <!-- Row 1 --> <img src="results/metrics/F1_curve.png" width="45%" alt="F1 Curve"/> <img src="results/metrics/PR_curve.png" width="45%" alt="Precision-Recall Curve"/>
 
-<div align="center">
-  <img src="results/metrics/emotion_detect/confusion_matrix.png" width="60%" alt="Confusion Matrix"/>
-  <p><i>Emotion Detection Model - Performance Visualization</i></p>
-</div>
+<br/><br/>
 
+<!-- Row 2 --> <img src="results/metrics/P_curve.png" width="45%" alt="Precision Curve"/> <img src="results/metrics/R_curve.png" width="45%" alt="Recall Curve"/>
+
+<br/><br/>
+
+<!-- Row 3 --> <img src="results/metrics/confusion_matrix.png" width="45%" alt="Confusion Matrix"/> <img src="results/metrics/confusion_matrix_normalized.png" width="45%" alt="Normalized Confusion Matrix"/>
+
+<br/><br/>
+
+<!-- Row 4 --> <img src="results/metrics/labels.jpg" width="45%" alt="Labels Distribution"/> <img src="results/metrics/labels_correlogram.jpg" width="45%" alt="Labels Correlogram"/>
+
+<br/><br/>
+
+<!-- Row 5 --> <img src="results/metrics/results.png" width="60%" alt="Training Results"/> </div> <p align="center"> <i>Emotion Detection Model – Performance Visualization</i> </p>
 ---
 
 ## 🚀 Installation
@@ -467,22 +500,6 @@ Comprehensive metrics:
 - [ ] Multi-dog tracking in single frame
 - [ ] Integration with veterinary clinic systems
 - [ ] Web-based interface for easy deployment
-
----
-
-## 📄 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@techreport{sik2023dog,
-  title={Dog Body Language Analysis Using Deep Learning and Image Processing Methods},
-  author={ŞIK, Abdurrezzak},
-  institution={TÜBİTAK 2209-A, Dicle University},
-  year={2023},
-  type={Research Project Final Report}
-}
-```
 
 ---
 
