@@ -115,11 +115,14 @@ Understanding dogs' emotional states is crucial for:
 
 ### Detection Examples
 
-<div align="center">
-  <img src="results/test_outputs/images/example1.jpg" width="45%" alt="Happy Dog"/>
-  <img src="results/test_outputs/images/example2.jpg" width="45%" alt="Sad Dog"/>
-  <p><i>Real-time emotion detection in action</i></p>
-</div>
+| Relax | Happy |
+|---|---|
+| <img src="results/test_outputs/images/0d2c55db-3f52-425d-ab9e-94ea7d682709.jpeg" width="250"/> | <img src="results/test_outputs/images/a6859a3c08fba95fe32568b5cf1abdb04d3f1aac.jpg" width="250"/> |
+
+| Angry | Sleeping |
+|---|---|
+| <img src="results/test_outputs/images/0d02e8edf180e49f7366d451a4f5b5b5b29f6907.jpg" width="250"/> | <img src="results/test_outputs/images/sleeping11.jpg" width="250"/> |
+
 
 ### System Architecture
 
